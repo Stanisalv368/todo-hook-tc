@@ -1,0 +1,32 @@
+.todo-list li .icon-play {
+  width: 18px;
+  height: 18px;
+  font-size: 15px;
+}
+
+.icon-play:after {
+  content: "▶";
+}
+
+.todo-list li .icon-pause {
+  font-size: 18px;
+  width: 18px;
+  height: 24px;
+}
+
+.icon-pause:after {
+  content: "⏸";
+}
+
+.todo-list li .time {
+  font-size: 15px;
+  margin-left: 8px;
+}
+
+.todo-list li .timer {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  gap: 2px;
+  opacity: 0.7;
+}
