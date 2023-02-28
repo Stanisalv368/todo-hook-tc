@@ -5,7 +5,7 @@ import "./App.css";
 import NewTaskForm from "../NewTaskForm/NewTaskForm";
 import TaskList from "../TaskList/TaskList";
 import Footer from "../Footer/Footer";
-import { Itodo } from "../../Type/data";
+import { Itodo } from "../../interface/data";
 
 const App = () => {
   const createTodoItem = (label: string, seconds: number) => {

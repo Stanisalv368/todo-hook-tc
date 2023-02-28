@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { formatDistanceToNow } from "date-fns";
 
-import { Itodo } from "../../Type/data";
+import { Itodo } from "../../interface/data";
 import "./Task.css";
 import Timer from "../Timer/Timer";
 

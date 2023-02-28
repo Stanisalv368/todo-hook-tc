@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Itodo } from "../../Type/data";
+import { Itodo } from "../../interface/data";
 import Task from "../Task/Task";
 
 interface ItodoList {
